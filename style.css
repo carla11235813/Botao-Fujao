@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('img/planeta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.painel {
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.7); /* RGBA com opacidade 0.7 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar o card */
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.painel h2 {
+    padding-block: 20px;
+}
+
+img {
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.btns {
+    padding-block: 10px;
+}
+
+.btn {
+    width: 90px;
+    height: 40px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    background-color: #0f84e9;
+    color: black;
+}
+
+#sim {
+    margin-left: -100px;
+}
+
+#nao {
+    position: absolute;
+    margin-left: 20px;
+}
